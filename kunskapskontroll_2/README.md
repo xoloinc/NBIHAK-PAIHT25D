@@ -1,0 +1,1 @@
+# Pythonprogrammering och AI strategi, möjligheter och utmaningar - Kunskapskontroll 2
