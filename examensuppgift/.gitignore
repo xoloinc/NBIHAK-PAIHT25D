@@ -1,0 +1,6 @@
+venv/
+asl_alphabet_train/
+asl_alphabet_test/
+asl_landmarks.csv
+asl_landmarks - Copy.csv
+asl_training.ipynb
