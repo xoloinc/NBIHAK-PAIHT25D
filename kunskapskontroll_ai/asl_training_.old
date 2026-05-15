@@ -7,6 +7,7 @@
    "source": [
     "# ASL Träning\n",
     "***Marcus Johansson 2026***\n",
+    se asl_training_extended.ipynb istället
     "\n",
     "Vi ska försöka använda oss av ett kaggle dataset för träning initialt.\n",
     "<s>https://www.kaggle.com/datasets/grassknoted/asl-alphabet visade vara fel och på tyska</s>\n",
