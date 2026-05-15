@@ -61,7 +61,7 @@ docker run -p 8501:8501 asl-app
 kunskapskontroll_ai/
 ├── app.py                    # Streamlit-app (snapshot-kamera)
 ├── app_stream.py             # Streamlit-app (WebRTC-streaming)
-├── asl_training_.ipynb       # Träningsnotebook för SVM-modellen
+├── asl_training_extended.ipynb  # Träningsnotebook för SVM-modellen
 ├── landmarkl_extrahering.ipynb  # Landmarkextraktion från träningsbilder
 ├── asl_landmarks.csv         # Extraherade landmarks (hela datasetet)
 ├── asl_landmarks_700.csv     # Balanserat urval (700 per klass)
