@@ -1,6 +1,6 @@
 """
 var i venv (source venv/bin/activate linux,venv\Scripts\activate win)
-streamlit run app.py
+streamlit run app_stream.py
 """
 
 import streamlit as st
