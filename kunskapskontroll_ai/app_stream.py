@@ -20,9 +20,9 @@ MAPP = './'
 # --- Ladda modell, scaler och label encoder ---
 @st.cache_resource
 def ladda_modell():
-    modell = joblib.load(f'{MAPP}/asl_modell.pkl')
-    scaler = joblib.load(f'{MAPP}/asl_scaler.pkl')
-    le     = joblib.load(f'{MAPP}/asl_label_encoder.pkl')
+    modell = joblib.load(f'{MAPP}/new_asl_modell.pkl')
+    scaler = joblib.load(f'{MAPP}/new_asl_scaler.pkl')
+    le     = joblib.load(f'{MAPP}/new_asl_label_encoder.pkl')
     return modell, scaler, le
 
 modell, scaler, le = ladda_modell()
