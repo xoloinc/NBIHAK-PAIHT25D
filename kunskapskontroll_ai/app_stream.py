@@ -161,3 +161,18 @@ if ctx.state.playing:
     time.sleep(0.5)
     st.rerun()
 
+# --- ASL-teckentabell ---
+st.divider()
+st.subheader('ASL-teckentabell')
+
+bokstaver = list('ABCDEFGHIJKLMNOPQRSTUVWXYZ') + ['space', 'del']
+bildmapp = './asl_alphabet_test'
+kolumner = st.columns(7)
+for i, tecken in enumerate(bokstaver):
+    filnamn = f'{bildmapp}/{tecken}_test.jpg'
+    with kolumner[i % 7]:
+        try:
+            st.image(filnamn, caption=tecken, use_container_width=True)
+        except Exception:
+            st.write(tecken)
+

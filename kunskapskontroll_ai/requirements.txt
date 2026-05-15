@@ -1,7 +1,10 @@
 mediapipe
-opencv-python
+opencv-python-headless
 tqdm
 streamlit
+streamlit-webrtc
+av
+tornado
 numpy
 joblib
 scikit-learn
