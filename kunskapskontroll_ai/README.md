@@ -4,6 +4,8 @@ Realtidsigenkänning av amerikanskt fingerspråk (ASL) med MediaPipe och en trä
 
 Håll upp handen mot kameran och forma en bokstav — appen identifierar bokstaven och bygger upp ord allteftersom.
 
+**Demo:** [kunskapskontroll.biscuitlab.com](https://kunskapskontroll.biscuitlab.com/)
+
 ---
 
 ## Hur det fungerar
